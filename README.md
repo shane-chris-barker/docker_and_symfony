@@ -1,5 +1,6 @@
 #Quick PHP, MySQL, Nginx and Symfony (Or Laravel) Docker setup
 
+Ensure you have Docker Desktop installed -> https://www.docker.com/products/docker-desktop/
 - Clone the repository
 - Run `docker-compose up --build` to build the containers and create the `app/` directory
 - Grab the ID of the `symfony_docker_php` container with `docker ps`
